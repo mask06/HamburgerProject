@@ -19,5 +19,6 @@ namespace Hamburger.DAL.Entities.Concrete
             get;
             set;
         }
+        public byte[]? Picture { get; set; } = null!;
     }
 }
